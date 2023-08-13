@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.root{
+    --primary: white;
+}
+
+body{
+    background: grey;
+}
+
+.nav-bar{
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
