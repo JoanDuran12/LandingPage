@@ -35,23 +35,39 @@ header ul{
     list-style-type: none;
     align-items: center;
     gap: 30px;
-    font-size: 24px;
+    font-size: 26px;
     color: var(--text);
 }
 
 header a{
     text-decoration: none;
-    color: black;
+    color: var(--text)
 }
 
-.content{
-    background-color: var(--secondary);
+.welcome{
+    /* background-color: var(--secondary); */
     display: flex;
-    justify-content: space-around;
-    padding: 40px 0px 40px 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    
 }
 
-.content p{
-    max-width: 300px;
-    text-align: justify;
+.welcome-photo{
+    width: 750px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.welcome div h2{
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.welcome div p{
+    padding: 30px;
+    font-size: 26px;
+    max-width: 900px;
 }
