@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Poppins:wght@200;300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Handjet', 'cursive', 'Poppins', sans-serif;
 }
 
 :root{
@@ -18,19 +22,21 @@ body{
 }
 
 header{
-    /* background: var(--primary); */
+    background: var(--primary);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
     height: 80px;
 }
 
 header ul{
     display: flex;
     list-style-type: none;
+    align-items: center;
     gap: 30px;
-    padding-right: 30px;
+    font-size: 24px;
+    color: var(--text);
 }
 
 header a{
@@ -39,7 +45,7 @@ header a{
 }
 
 .content{
-    /* background-color: var(--secondary); */
+    background-color: var(--secondary);
     display: flex;
     justify-content: space-around;
     padding: 40px 0px 40px 0;
