@@ -41,8 +41,15 @@ header ul{
 }
 
 a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--text)
+}
+
+.guides:hover, .gameplay:hover, .realms:hover, .top-wrapper a:hover{
+    background: var(--accent);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .welcome{
@@ -58,6 +65,7 @@ a{
     width: 750px;
     height: auto;
     border-radius: 40px;
+    box-shadow: 0px 0px 10px 2px var(--accent);
 }
 
 .welcome div h2{
@@ -89,6 +97,7 @@ a{
     border-radius: 20px;
     border: solid var(--primary) 8px;
     width: 85%;
+    box-shadow: 0px 0px 5px 0px var(--accent);
 }
 
 .top-wrapper{
@@ -140,9 +149,24 @@ a{
 
 .card a:hover{
     color: white;
+    text-decoration: none;
 }
 
 footer{
     background: var(--primary);
-    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2{
+    margin-bottom:20px ;
+}
+
+.credit-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.credit-wrapper a:hover{
+    color: white;
 }
