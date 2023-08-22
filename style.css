@@ -11,7 +11,7 @@
 
 :root{
     --text: #000000;
-    --background: #FED297;
+    --background: #FDCC8B;
     --primary: #E98674;
     --secondary: #A49EB0;
     --accent: #454649;
@@ -73,6 +73,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .inside-wrapper{
@@ -80,7 +81,7 @@ a{
     justify-content: center;
     align-items: center; */
     /* gap: 50px; */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px 10px 20px;
     border-radius: 20px;
     border: solid var(--primary) 8px;
@@ -104,15 +105,30 @@ a{
 
 .card-wrapper{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 50px;
     gap: 40px;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .card a{
     text-align: center;   
+}
+
+.card img{
+    width: 80px;
+    height: auto;
+}
+
+.card:hover{
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+.card a:hover{
+    color: white;
 }
 
 footer{
